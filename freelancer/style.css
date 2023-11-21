@@ -1,7 +1,6 @@
 *{
   margin: 0;
 }
-
 .header{
   background: #2c3e50;
   width: 100%;
@@ -13,14 +12,32 @@
 .name{
   font-family: 'Montserrat', sans-serif;
   margin-top: 2rem;
+  margin-left: 10rem;
 }
 .data{
   font-family: 'Montserrat', sans-serif;
 }
-
 .bar-nav{
   display: flex;
   gap: 2rem;
   justify-content: flex-end;
+  align-items: center;
+  margin-right: 10rem;
 }
-
+.landing{
+  background: #18bc9c;
+  width: 100%;
+  height: 700px;
+  display: grid;
+  place-content: center;
+  gap: 2rem;
+}
+.slogan{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  justify-self: center;
+}
+.profile{
+  justify-self: center;
+}
