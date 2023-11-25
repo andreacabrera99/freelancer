@@ -72,13 +72,21 @@
   background: #fff;
   width: 100%;
   height: 700px;
+  display: grid;
+  place-content: center;
+}
+.subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  justify-self: center;
+  align-self: start;
+}
+.image{
+  width: 250px;
+}
+.grid-images{
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-.image{
-  width: 200px;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
