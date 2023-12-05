@@ -148,11 +148,24 @@
   justify-content: center;
 }
 .container-3{
-  display: flex;
-  gap:1em;
+  display: grid;
+  gap:3em;
+  grid-template-columns: 360px 380px;
 }
 .info{
   font-family: 'Lato';
   color: #fff;
-  font-size: 1.4em;
+  font-size: 1.3em;
+}
+.button{
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #18bc9c;
+  color: #fff;
+  justify-self: center;
+  font-family: 'Lato';
+  font-size: 1.3em;
+  border: 2px solid white;
+  cursor: pointer;
 }
