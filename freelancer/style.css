@@ -197,24 +197,23 @@
   justify-content: center;
 }
 .form{
-  display: flex;
-  flex-flow: column;
-  gap: 7px;
-  justify-content: flex-start;    
+  display: grid;
+  gap: 7px; 
 }
-.name, .phone, .email, .message{
+.name-2, .phone, .email, .message{
   font-family: 'Lato';
   font-size: 1.3em;
-  font-weight: 300px;
+  font-weight: 250px;
   width: 500px;
   height: 50px;
   color: rgb(154, 153, 153);
   border: #fff;
+  grid-column-start: 1;
 }
 .line{
-  width: 700px;
+  width: 600px;
   height: 1px;
-  background-color: rgb(188, 188, 188);
+  background-color: rgb(231, 228, 228);
 }
 .button-2{
   font-family: 'Lato';
@@ -225,4 +224,72 @@
   height: 30px;
   border-radius: 5px;
   border:#18bc9c
+}
+.footer{
+  width: 100%;
+  height: 350px;
+  background: #2c3e50;
+  color: #fff;
+}
+.elements{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3em;
+}
+.social{
+  display: flex;
+}
+.circle-2{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #2c3e50;
+  border: 3px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media{
+  width: 25px;
+}
+.subtitle-3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+.text{
+  font-family: 'Lato';
+  font-size: 18px;
+  width:220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  text-align: center;
+}
+.text-2{
+  font-family: 'Lato';
+  font-size: 18px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  text-align: center;
+  justify-content: center;
+}
+.article{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+.copyright{
+  font-family: 'Lato';
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10em;
+}
+.highlight{
+  color: #18bc9c;
 }

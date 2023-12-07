@@ -72,7 +72,7 @@
      </div>
     </div>
       <form class="form">
-        <input placeholder="Name" class="name">
+        <input placeholder="Name" class="name-2">
         <div class="line"></div>
         <input type="email" placeholder="Email Adress" class="email">
         <div class="line"></div>
@@ -90,10 +90,33 @@
     <script type="module" src="/main.js"></script>
   </body>
 
-  <footer>
-    <article><p>LOCATION</p>3481 Melrose Place Beverly Hills, CA 90210</article>
-    <article><p>AROUND THE WEB</p></article> 
-    <article><p>ABOUT FREELANCER</p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</article>
-    <p>Copyright © Your Website 2017</p>
+  <footer class="footer">
+    <div class="elements">
+    <article class="text"><p class="subtitle-3">LOCATION</p>3481 Melrose Place Beverly Hills, CA 90210</article>
+    <article class="article">
+      <p class="subtitle-3">AROUND THE WEB</p>
+      <div class="social">
+      <div class="circle-2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAASBJREFUaEPtV10OgzAIhpNtnmzzZHMnYyGpiTHVFuhmdV+f+kAt3w8UmU6++OT5EwAcrSAU+AsFRORJRLcE9r4APaX9yMzz3sTJVy2UEn9UZDR0B0BEXkS0ZHsPR18ADMzPoLoDIBW2WYb0A0BE1DZqH8vqCoB2nK3CHYlo8hZsjpHmXahQvG6mt+T8JQBlfrD4qiYWANYs7VgIChxdxH0pkPp9rl3ujQ/ZgS1S3O4idj5Y2cbCzO483AcbAghZCwBqHptCzOkV0L8xnZ9cy20hvS3N/euLtwY57UDvTJah4S4EIEcZXmKjkaAAhjmjZdbhsBAsBAsFGYCFggSiC8FCsFCQgctZqDEfxc8170LFGxsHAEBjQs2fgwJmyhof+AB63rcxyCZsLAAAAABJRU5ErkJggg==" class="social-media"/>
+      </div>
+      <div class="circle-2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAcdJREFUaEPtWAtuwyAMtU+29mRbT7b2ZJ4sQcQMBhMTpmpGqqpKQN7HvxThzRe+OX4IAn/tYDgQDjgViBByCug+Hg64JXRe8L8cIKIbAPDnI31n/Z4A8Eo/nojIv7cskwMJ+KcA3QP4QMSvHQyGBIiIgTD4M+tyIl0CTvBMmMPpfoa59YxKwAg+x37LoWn1U6ge2C251CNAigoMmsFViVqQngbPz5KiIeIwxJsbOuoPgbGKFuVa4qwk0FJ/CN4at9q+JQQU9S9PxmUhpBBQ1ZeJ13OhDK2iKZZHZIN8yPtkf6lygIi+ZcPqJRMRacne4nIIYaxy1R0SS4tABWghgSMUg0DyxhRCAHDXSuPZEEpJy4NhueS8VXVxiWMFAQkiA2oNf91SvKqMMiBO5HJNl9HZarayjLYI8P3mRpZKpBQBRqPBEgeSElUpTXYMSXTeHSxnf43uI8KMSZuFNBe6TvRKowXMmVHEO05zp+TuyUtL5qnwmyVx9QvNpeDVECpVONsxrTkzq3g1G1kvmCSivvRYn2fdN3zjEW5of6vkbduA5wdOEbCqsnNfENipdutZ4UA44FQgQsgpoPt4OOCW0HlBOOAU0H38BxMb7zHKhwGlAAAAAElFTkSuQmCC" class="social-media"/>
+      </div>
+      <div class="circle-2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAftJREFUaEPtWNFuwyAMhC/b+mVbv2ztlzE5wpMXgTljtygSeUobMHe+s0nI6eJXvjj+tAmsVnArsBVwZmBbyJrAUspnSumrzqP7e71/5Jwf1nhdBWihmYA9AAI4ge5d95zzNz+sc47x8n85WSNwBOpNtGSqlEKxOOujqVIFJvuPGEqg1IHdySMk9NwIvhVSXb+pQJXuR0SbJlFKoTiabbQ8kBpUI6Tes+UGlAAvYiISkP0/cjnnJlYrAQoIkwgicKjQaygzBGA1nPahdai13jSPaV0I9e7Rx1v+DCBwG7VydR9IKclCRpoOb0pH9mrxzRYwxZgnENQCEdLamDkCYgekLMqt3wvINL/XeYYbWWMfMC0cNXiaQLUP78RReKxxhh3oaB69qAEdxAr4PB7ab6K7kBe0nD8sYFWB1V0I8f+QwEISkH0gAoIE3aLv9C4rodmfIfDheDVGScHZtxB4W0u1ZN9CwPJJiGa6Nc6UfZjAm4oZ2rjOrE3nQkEfKD2FoL7vIsCTK5HIgjZbh7GYFJDswXMepB6mwZtq4AQ+qqinbCOxwAoEZpzWVz/UEdlUCwmP8zjPZ+EZj8sycBG/oOOEZd1kIScRPlmjUwvzyTNiJWsNsJWohdLFvyW4Z/X4y0CbFECysHIMrMBKkNram8BqZbYCWwFnBi5voV9ostExqfuArwAAAABJRU5ErkJggg==" class="social-media"/>
+      </div>
+      <div class="circle-2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAdpJREFUaEPtmE1KBDEUhKv2gujGKyiIK3GrcxHdqog38A90Iwy40QPoPXRciwsRLyLiz6rkyfTQjp1khpZ0ukmW3UmnvtTLe0kTLW9suX5kgKYd7LYDkmYALANYAiAALwCeSX42vfLF/E4HJM0DOAKwPyb2HMAJyfcUICoBJM0COAWw5xBpEIckv5qGcAGsAxgExK2SfEwVYAfAVUDcJsmbVAF2AVwGxG2RvE4VoAfgNiBujeRDqgCWgc4AbDsE9gEckPxIEsBESVoYplHbD+V2Yc9JvjYt3ub3VmJJcwBWACyWCtkTybcUxAcBUhHp09Hds5CkDS85+avQTdN/2Ne+bwWz3O5/woI8ntR931noDoALYkDSUu2oSbJJ7exU1Ub9Jfm+Wx5r560gSFSAKcQXIEGIaABDRd6wdLjX41i4lvvFApg0pL3hV/WyDQCm2+lCkwCWxSYNKedeiA1gok3MKAUHslcRNX+yXvEiKgBJ1wXKl4JNaxIA3pQoyX4aOJsLPqYD3nQYqhGNA7gEFEse2gsZYCw4pz0L2QEtdPfwbuTsQHYgh1D1HopWB/ImdoRgdqBuJa07PjtQdwXrju+uA3Vu4THHdvfXYsxVrDNXdqDO6v3H2NY78A33o39A56Hb5AAAAABJRU5ErkJggg==" class="social-media"/>
+      </div>
+      <div class="circle-2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAutJREFUaEPtWdFu4zAMi79sty+77ctu+zIfVNiFolASZbcYCqwv65rEJkVakp12vPinvTj+45fATyv4MAV6738GGfn7pr7L16/x//f4+9Vam79txWCbwAD+9ziOSYAFJAS+W2sf7APovmUCvfd/C6A9rJ+rRMoEiIhru8h3q4yo5X3eq9YqEei9i9wRAAGWRnOMI/eisdLnNXuagGOZm48BEDqSTlBoEhSBbBLn+i4JyVTv2QJPCbDgwH0UgAkwC5JHJCQwFqxkG/1xI7tKIslooZIZgc6CV5G06TUEAMDbzBUq6RIA0aQWFlANAnDS8W2OipIRAR39XT/fyQd15BQgq0xrDWKFP4II0BklsNLn6JFQy3FRFygJMXgEtI8p69gs4SQAe5v4XcaHjZ1RAbrgQgBMXCIwnp8dqdfghcCVivK8zoIXFRCBU7tgvafa5jkPap+j+kMHhAlmSiCrhAvXS+up966TyYU8IvCINnn2SNPb2gbVjKbxXJ7dJaAXn2SZAy3ILCUCW2phxaKza6UInCRT20EIjrEQ2YYzQwmGU9CRAppAya8aAbHxoQDbmxgCWzWgAJzd1OtUTFlomUBgFbTxodQ1Y1IEdB2gMkYQ9VPBYiorqOhhQNM64DVRQbWUS7DSZtkILYqVOpCW7wS8W2nZBi3YpeWthDzMSF3drSlQdJue+f9WdxzZUhWMtDIMuyjDyhpEHyq7tKHZ2S9Y5bw1ZucobWiAjeQnb7tHd5djXEZde4DmzpFt6m1jJ/2OPk0rgXfWwcl6aG1FmTAjYKN1WjJZivV6BS9JrCSG1YOtu6VWGhpEwAGfKpwScNbDLoGLx8H5agreTaNOavVOpqmJQKdqT/z0LVQLUyIwlPBIlN62JPuDUkAoCxWjN3uh+/sw9ZJD3p1tnVRc9gcrizBRY2VI2jIPI2BKfhRZjxB1NpRFo2yhILeLNaY9otest51Y9V2YN+/DCGSRetb1XwLPiiw77ssr8B9v0hhPZYZh5wAAAABJRU5ErkJggg==" class="social-media"/>
+      </div>
+    </div>
+    </article> 
+    <div class="">
+    <p class="text-2"><p class="subtitle-3">ABOUT FREELANCER</p>Freelance is a free to use, open source Bootstrap theme created by <span class="highlight">Start Bootstrap</span>. </p>
+  </div>
+  </div>
+    <p class="copyright">Copyright © Your Website 2017</p>
   </footer>
 </html>
