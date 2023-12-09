@@ -238,10 +238,11 @@
 }
 .social{
   display: flex;
+  gap: 3rem .5em;
 }
 .circle-2{
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #2c3e50;
   border: 3px solid #fff;
@@ -255,6 +256,8 @@
 .subtitle-3{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
+  padding-left: .5em;
+  padding-bottom: .5em;
 }
 .text{
   font-family: 'Lato';
@@ -263,24 +266,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5em;
   text-align: center;
 }
 .text-2{
   font-family: 'Lato';
   font-size: 18px;
-  width: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5em;
+  width: 19em;
   text-align: center;
-  justify-content: center;
 }
 .article{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 1.5em;
+  gap: 1.75em;
   justify-content: center;
 }
 .copyright{
@@ -290,6 +288,16 @@
   justify-content: center;
   padding-top: 10em;
 }
-.highlight{
-  color: #18bc9c;
+.container-6{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.text-2 .highlight{
+  color:#18bc9c;
+}
+.subtitle-4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  align-self: center;
 }
